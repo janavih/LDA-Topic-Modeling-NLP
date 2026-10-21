@@ -1,0 +1,22 @@
+LATENT DIRICHLET ALLOCATION (LDA) TOPIC INTERPRETATION REPORT
+==============================================================
+Input file: data\documents.csv
+Number of documents: 16
+Number of discovered topics: 4
+Vocabulary size: 175
+
+Topic-word distributions (top words are the strongest indicators):
+
+Topic 1: use, online, sensors, helps, provide, reviewing, students, questions, notes, platforms
+
+Topic 2: climate, helps, analyze, trends, researchers, visualization, temperature, change, measurements, explain
+
+Topic 3: user, financial, language, identify, help, topic, modeling, improve, applications, testing
+
+Topic 4: data, learning, use, improve, patterns, networks, medical, machine, monitor, uses
+
+Interpretation guidance:
+- Read the top words for each topic and assign a human-readable label.
+- Documents can contain multiple topics; the CSV stores each topic probability.
+- The dominant topic is the topic with the highest probability for a document.
+- Topic labels are interpretive and should be chosen after reviewing the words and documents.
